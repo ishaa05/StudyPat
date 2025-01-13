@@ -37,7 +37,7 @@ const Home = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-gray-50 py-20 text-center">
+      <section className="bg-gray-50 h-screen flex items-center justify-center text-center">
         <div className="container mx-auto px-6">
           <h1 className="text-4xl font-bold text-gray-800 leading-tight">
             A new way of <span className="text-blue-500">Learning</span>
