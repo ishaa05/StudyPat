@@ -4,6 +4,8 @@ import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 import Tools from './components/Tools';
 import Home from './components/Home';
+import PostureDetector from './components/detect';
+import AboutUs from './components/AboutUs';
 
 import { ClerkProvider, RedirectToSignIn, SignedIn, SignedOut, SignIn, SignUp } from '@clerk/clerk-react';
 import { SignInButton, UserButton } from "@clerk/clerk-react";
@@ -18,6 +20,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/tools" element={<Tools />} />
+        <Route path="/detect" element={<PostureDetector />} />
+        <Route path="/aboutus" element={<AboutUs />} />
       </Routes>
     </Router>
   );

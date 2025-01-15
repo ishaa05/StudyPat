@@ -2,8 +2,7 @@ import React from 'react';
 
 const Tools = () => {
   const tools = [
-    { name: 'Posture Detector', description: 'Detect and correct your posture.', link: 'http://localhost:8501/' },
-    { name: 'Time Management', description: 'Plan and prioritize tasks effectively.', link: '/time-management' },
+    { name: 'Posture Detector', description: 'Detect and correct your posture.', link: '/detect' },
     { name: 'Writing Assistant', description: 'Grammar, tone, and writing suggestions.', link: 'http://localhost:8502/' },
     { name: 'Study Material Recommendation', description: 'Personalized study content.', link: 'http://localhost:8501/' },
   ];

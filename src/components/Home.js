@@ -7,8 +7,8 @@ import Tools from './Tools';
 const clerkFrontendApi = "pk_test_YXNzdXJlZC1iZWUtMTYuY2xlcmsuYWNjb3VudHMuZGV2JA";
 const Home = () => {
   return (
-    <div className="font-sans">
-      {/* Navbar */}
+    <div className="font-sans min-h-screen bg-cover bg-center" style={{backgroundColor:'blue', height: '100vh', width: '100%'}}>
+     
       <nav className="bg-white shadow-lg sticky top-0 z-10">
         <div className="container mx-auto flex items-center justify-between py-4 px-6">
           <div className="text-2xl font-bold text-blue-600">StudyPat</div>
@@ -17,7 +17,7 @@ const Home = () => {
               <Link to="/Dashboard" className="text-gray-700 hover:text-blue-500">Dashboard</Link>
             </li>
             <li>
-              <Link to="/" className="text-gray-700 hover:text-blue-500">About Us</Link>
+              <Link to="/aboutus" className="text-gray-700 hover:text-blue-500">About Us</Link>
             </li>
             <li>
               <Link to="/tools" className="text-gray-700 hover:text-blue-500">Tools</Link>
@@ -36,7 +36,7 @@ const Home = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
+      
       <section className="bg-gray-50 h-screen flex items-center justify-center text-center">
         <div className="container mx-auto px-6">
           <h1 className="text-4xl font-bold text-gray-800 leading-tight">
@@ -52,7 +52,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* About Us Section */}
+     
       <section className="bg-white py-20">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-gray-800">About Us</h2>
@@ -62,7 +62,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* FAQ Section */}
+     
       <section className="bg-gray-50 py-20">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-gray-800 text-center">FAQs</h2>
@@ -79,7 +79,7 @@ const Home = () => {
                 Sign up, explore courses, and click on enroll to get started on your journey!
               </p>
             </div>
-            {/* Add more FAQs */}
+            
           </div>
         </div>
       </section>
