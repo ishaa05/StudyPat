@@ -12,7 +12,7 @@ def notify_user():
     notification.notify(
         title='Posture Notification',
         message='Your current posture is BAD, Please Fix!',
-        app_icon='notify-icon.ico',  # Provide path to icon if available
+        app_icon='notify-icon.ico',  
         timeout=10
     )
 

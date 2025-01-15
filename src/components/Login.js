@@ -6,7 +6,7 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Add authentication logic here
+    
     navigate('/dashboard');
   };
 
